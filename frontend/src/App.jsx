@@ -1,11 +1,11 @@
 import { Routes, Route } from 'react-router-dom';
-import DiscussionPage from './views/discussionPage';
+import HomePregnantUser from './views/HomePregnantUser';
 
 function App() {
   return (
     <main className="main-side">
       <Routes>
-        <Route path="/" element={<DiscussionPage />} />
+        <Route path="/" element={<HomePregnantUser />} />
       </Routes>
     </main>
   );
