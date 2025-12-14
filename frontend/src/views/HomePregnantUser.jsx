@@ -22,7 +22,7 @@ export default function HomePregnantUser() {
         <div className="menu-card">
           <h2>❤️ Diagnosis Keluhan</h2>
           <p>Konsultasikan keluhan yang dirasakan selama kehamilan</p>
-          <button>Mulai Diagnosis</button>
+          <a href="/diagnosis">Mulai Diagnosis</a>
         </div>
 
 
