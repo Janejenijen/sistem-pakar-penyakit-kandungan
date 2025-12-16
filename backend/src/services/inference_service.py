@@ -1,4 +1,4 @@
-from .data_loader import load_json
+from src.services.data_loader import load_json
 
 def combine_cf(cf1, cf2):
     return cf1 + cf2 * (1 - cf1)
