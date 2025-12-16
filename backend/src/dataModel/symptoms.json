@@ -1,0 +1,23 @@
+[
+  { "kode": "G01", "nama": "Pusing", "kategori": "Vital & Umum" },
+  { "kode": "G02", "nama": "Lemas", "kategori": "Vital & Umum" },
+  { "kode": "G03", "nama": "Sakit kepala hebat", "kategori": "Vital & Umum" },
+  { "kode": "G04", "nama": "Tekanan darah tinggi", "kategori": "Vital & Umum" },
+  { "kode": "G05", "nama": "Bengkak wajah/tangan", "kategori": "Vital & Umum" },
+
+  { "kode": "G06", "nama": "Perdarahan vagina", "kategori": "Darurat & Perdarahan" },
+  { "kode": "G07", "nama": "Perdarahan tanpa nyeri", "kategori": "Darurat & Perdarahan" },
+  { "kode": "G08", "nama": "Perdarahan disertai nyeri", "kategori": "Darurat & Perdarahan" },
+
+  { "kode": "G09", "nama": "Nyeri saat BAK", "kategori": "Saluran Kemih & Perut" },
+  { "kode": "G10", "nama": "Anyang-anyangan", "kategori": "Saluran Kemih & Perut" },
+  { "kode": "G11", "nama": "Urine keruh atau berbau", "kategori": "Saluran Kemih & Perut" },
+  { "kode": "G12", "nama": "Nyeri perut bawah", "kategori": "Saluran Kemih & Perut" },
+
+  { "kode": "G13", "nama": "Keputihan berbau", "kategori": "Cairan & Keputihan" },
+  { "kode": "G14", "nama": "Keputihan gatal", "kategori": "Cairan & Keputihan" },
+  { "kode": "G15", "nama": "Cairan bening keluar", "kategori": "Cairan & Keputihan" },
+
+  { "kode": "G16", "nama": "Haus berlebih", "kategori": "Metabolistik" },
+  { "kode": "G17", "nama": "Sering buang air kecil", "kategori": "Metabolistik" }
+]

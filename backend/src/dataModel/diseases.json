@@ -1,0 +1,12 @@
+[
+  { "kode": "P01", "nama": "Preeklampsia" },
+  { "kode": "P02", "nama": "Anemia" },
+  { "kode": "P03", "nama": "Plasenta Previa" },
+  { "kode": "P04", "nama": "Keguguran" },
+  { "kode": "P05", "nama": "Kontraksi Dini" },
+  { "kode": "P06", "nama": "Infeksi Saluran Kemih" },
+  { "kode": "P07", "nama": "Infeksi Vagina" },
+  { "kode": "P08", "nama": "Infeksi Jamur" },
+  { "kode": "P09", "nama": "Ketuban Pecah Dini" },
+  { "kode": "P10", "nama": "Diabetes Gestasional" }
+]
