@@ -1,0 +1,70 @@
+[
+  {
+    "id": "G01",
+    "namaGejala": "pusing"
+  },
+  {
+    "id": "G02",
+    "namaGejala": "lemas"
+  },
+  {
+    "id": "G03",
+    "namaGejala": "sakit kepala hebat"
+  },
+  {
+    "id": "G04",
+    "namaGejala": "tekanan darah tinggi"
+  },
+  {
+    "id": "G05",
+    "namaGejala": "bengkak wajah atau tangan"
+  },
+  {
+    "id": "G06",
+    "namaGejala": "perdarahan vagina"
+  },
+  {
+    "id": "G07",
+    "namaGejala": "perdarahan tanpa nyeri"
+  },
+  {
+    "id": "G08",
+    "namaGejala": "perdarahan disertai nyeri"
+  },
+  {
+    "id": "G09",
+    "namaGejala": "nyeri saat buang air kecil"
+  },
+  {
+    "id": "G10",
+    "namaGejala": "anyang-anyangan"
+  },
+  {
+    "id": "G11",
+    "namaGejala": "urine keruh atau berbau"
+  },
+  {
+    "id": "G12",
+    "namaGejala": "nyeri perut bagian bawah"
+  },
+  {
+    "id": "G13",
+    "namaGejala": "keputihan berbau"
+  },
+  {
+    "id": "G14",
+    "namaGejala": "keputihan gatal"
+  },
+  {
+    "id": "G15",
+    "namaGejala": "cairan bening keluar"
+  },
+  {
+    "id": "G16",
+    "namaGejala": "haus berlebihan"
+  },
+  {
+    "id": "G17",
+    "namaGejala": "sering buang air kecil"
+  }
+]
