@@ -1,35 +1,22 @@
 from fastapi import APIRouter
 from pydantic import BaseModel
-from typing import Dict
+from typing import Dict, Optional
+
 from src.services.inference_service import forward_chaining_cf
 
-router = APIRouter(prefix="/diagnosis", tags=["Diagnosis"])
-
+router = APIRouter()
 
 class DiagnosisRequest(BaseModel):
     gejala: Dict[str, float]
+    threshold: Optional[float] = 0.4
 
-
-@router.post("/")
-def diagnosis(request: DiagnosisRequest):
-    hasil = forward_chaining_cf(request.gejala)
-
-    if not hasil:
-        return {
-            "message": "Tidak ada rule yang terpenuhi"
-        }
+@router.post("/diagnosis")
+def diagnosis(data: DiagnosisRequest):
+    hasil = forward_chaining_cf(
+        data.gejala,
+        data.threshold
+    )
 
     return {
-        "diagnosis": [
-            {
-                "penyakit": p,
-                "cf": round(cf, 3),
-                "persentase": f"{round(cf * 100, 2)}%"
-            }
-            for p, cf in sorted(
-                hasil.items(),
-                key=lambda x: x[1],
-                reverse=True
-            )
-        ]
+        "diagnosis": hasil
     }
