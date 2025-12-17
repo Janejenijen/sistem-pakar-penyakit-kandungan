@@ -1,0 +1,26 @@
+[
+  {
+    "kode": "P01",
+    "nama": "Preeklamsia",
+    "deskripsi": "Kondisi kehamilan yang ditandai dengan tekanan darah tinggi setelah usia kehamilan 20 minggu dan dapat membahayakan ibu serta janin.",
+    "tingkat_risiko": "Tinggi"
+  },
+  {
+    "kode": "P02",
+    "nama": "Anemia",
+    "deskripsi": "Kondisi kekurangan hemoglobin dalam darah yang menyebabkan ibu hamil mudah lelah, pusing, dan lemas.",
+    "tingkat_risiko": "Sedang"
+  },
+  {
+    "kode": "P03",
+    "nama": "Infeksi Vagina",
+    "deskripsi": "Infeksi pada area vagina selama kehamilan yang umumnya ditandai dengan keputihan berbau tidak normal.",
+    "tingkat_risiko": "Sedang"
+  },
+  {
+    "kode": "P04",
+    "nama": "Infeksi Jamur",
+    "deskripsi": "Infeksi jamur pada vagina selama kehamilan yang ditandai dengan rasa gatal dan keputihan kental.",
+    "tingkat_risiko": "Rendah"
+  }
+]

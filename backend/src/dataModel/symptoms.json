@@ -1,0 +1,58 @@
+[
+  {
+    "kode": "G01",
+    "nama": "Pusing",
+    "deskripsi": "Kepala terasa ringan atau berputar."
+  },
+  {
+    "kode": "G02",
+    "nama": "Lemas",
+    "deskripsi": "Mudah merasa lelah dan tidak bertenaga."
+  },
+  {
+    "kode": "G03",
+    "nama": "Sakit kepala hebat",
+    "deskripsi": "Nyeri kepala berat dan berlangsung terus-menerus."
+  },
+  {
+    "kode": "G04",
+    "nama": "Tekanan darah tinggi",
+    "deskripsi": "Tekanan darah lebih tinggi dari batas normal pada kehamilan."
+  },
+  {
+    "kode": "G05",
+    "nama": "Bengkak pada wajah atau tangan",
+    "deskripsi": "Pembengkakan yang tidak biasa pada wajah atau tangan."
+  },
+  {
+    "kode": "G06",
+    "nama": "Nyeri saat BAK",
+    "deskripsi": "Nyeri saat BAK."
+  },
+  {
+    "kode": "G07",
+    "nama": "Anyang-anyangan",
+    "deskripsi": "Kemungkinan terjadi anyang-anyangan."
+  },
+  {
+    "kode": "G08",
+    "nama": "Urine keruh atau berbau",
+    "deskripsi": "Urine yang keruh atau berbau tidak biasa."
+  },
+  {
+    "kode": "G09",
+    "nama": "Nyeri perut bawah",
+    "deskripsi": "Nyeri pada perut bawah yang tidak biasa."
+  },
+  {
+    "kode": "G13",
+    "nama": "Keputihan berbau",
+    "deskripsi": "Keputihan dengan bau tidak normal yang menandakan infeksi."
+  },
+  {
+    "kode": "G14",
+    "nama": "Gatal pada vagina",
+    "deskripsi": "Rasa gatal pada area vagina yang tidak biasa."
+  }
+]
+

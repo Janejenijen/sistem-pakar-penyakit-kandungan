@@ -1,0 +1,83 @@
+[
+  {
+    "gejala": "G01",
+    "kode_penyakit": "P01",
+    "penyakit": "Preeklamsia",
+    "cf_pakar": 0.6
+  },
+  {
+    "gejala": "G02",
+    "kode_penyakit": "P01",
+    "penyakit": "Preeklamsia",
+    "cf_pakar": 0.4
+  },
+  {
+    "gejala": "G03",
+    "kode_penyakit": "P01",
+    "penyakit": "Preeklamsia",
+    "cf_pakar": 0.8
+  },
+  {
+    "gejala": "G04",
+    "kode_penyakit": "P01",
+    "penyakit": "Preeklamsia",
+    "cf_pakar": 1.0
+  },
+  {
+    "gejala": "G05",
+    "kode_penyakit": "P01",
+    "penyakit": "Preeklamsia",
+    "cf_pakar": 0.8
+  },
+
+  {
+    "gejala": "G01",
+    "kode_penyakit": "P02",
+    "penyakit": "Anemia",
+    "cf_pakar": 0.8
+  },
+  {
+    "gejala": "G02",
+    "kode_penyakit": "P02",
+    "penyakit": "Anemia",
+    "cf_pakar": 0.8
+  },
+  {
+    "gejala": "G03",
+    "kode_penyakit": "P02",
+    "penyakit": "Anemia",
+    "cf_pakar": 0.4
+  },
+  {
+    "gejala": "G05",
+    "kode_penyakit": "P02",
+    "penyakit": "Anemia",
+    "cf_pakar": 0.2
+  },
+
+  {
+    "gejala": "G13",
+    "kode_penyakit": "P03",
+    "penyakit": "Infeksi Vagina",
+    "cf_pakar": 0.8
+  },
+  {
+    "gejala": "G14",
+    "kode_penyakit": "P03",
+    "penyakit": "Infeksi Vagina",
+    "cf_pakar": 0.6
+  },
+
+  {
+    "gejala": "G13",
+    "kode_penyakit": "P04",
+    "penyakit": "Infeksi Jamur",
+    "cf_pakar": 0.2
+  },
+  {
+    "gejala": "G14",
+    "kode_penyakit": "P04",
+    "penyakit": "Infeksi Jamur",
+    "cf_pakar": 0.8
+  }
+]
