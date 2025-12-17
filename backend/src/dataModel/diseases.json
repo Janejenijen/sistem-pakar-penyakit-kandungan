@@ -22,11 +22,5 @@
     "nama": "Infeksi Jamur",
     "deskripsi": "Infeksi jamur pada vagina selama kehamilan yang ditandai dengan rasa gatal dan keputihan kental.",
     "tingkat_risiko": "Rendah"
-  },
-  {
-    "kode": "P05",
-    "nama": "Ketuban Pecah Dini (KPD)",
-    "deskripsi": "Kondisi pecahnya ketuban sebelum waktunya yang dapat meningkatkan risiko infeksi dan komplikasi persalinan.",
-    "tingkat_risiko": "Tinggi"
   }
 ]

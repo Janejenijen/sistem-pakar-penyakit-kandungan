@@ -79,12 +79,5 @@
     "kode_penyakit": "P04",
     "penyakit": "Infeksi Jamur",
     "cf_pakar": 0.8
-  },
-
-  {
-    "gejala": "G15",
-    "kode_penyakit": "P05",
-    "penyakit": "Ketuban Pecah Dini (KPD)",
-    "cf_pakar": 1.0
   }
 ]

@@ -25,18 +25,23 @@
     "deskripsi": "Pembengkakan yang tidak biasa pada wajah atau tangan."
   },
   {
-    "kode": "G13",
-    "nama": "Keputihan berbau tidak normal",
-    "deskripsi": "Keputihan dengan bau menyengat atau tidak seperti biasanya."
+    "kode": "G06",
+    "nama": "Nyeri saat BAK",
+    "deskripsi": "Nyeri saat BAK."
   },
   {
-    "kode": "G14",
-    "nama": "Keputihan disertai rasa gatal",
-    "deskripsi": "Keputihan yang menimbulkan rasa gatal atau tidak nyaman."
+    "kode": "G07",
+    "nama": "Anyang-anyangan",
+    "deskripsi": "Kemungkinan terjadi anyang-anyangan."
   },
   {
-    "kode": "G15",
-    "nama": "Cairan bening keluar dari vagina",
-    "deskripsi": "Keluar cairan bening secara terus-menerus dari vagina."
+    "kode": "G08",
+    "nama": "Urine keruh atau berbau",
+    "deskripsi": "Urine yang keruh atau berbau tidak biasa."
+  },
+  {
+    "kode": "G09",
+    "nama": "Nyeri perut bawah",
+    "deskripsi": "Nyeri pada perut bawah yang tidak biasa."
   }
 ]
