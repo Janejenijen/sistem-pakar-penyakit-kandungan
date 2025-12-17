@@ -51,7 +51,7 @@
   margin-bottom: 16px;
 }
 
-.menu-card button {
+.menu-card button, a {
   width: 100%;
   padding: 10px;
   background-color: #ec4899;
@@ -61,7 +61,7 @@
   cursor: pointer;
 }
 
-.menu-card button.outline {
+.menu-card button.outline, a {
   background-color: transparent;
   border: 1px solid #ec4899;
   color: #ec4899;
@@ -69,4 +69,13 @@
 
 .menu-card button:hover {
   opacity: 0.9;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  background-color: #ec4899;
+  color: #ffffff;
+  transition: ease-in-out 0.3s;
 }
