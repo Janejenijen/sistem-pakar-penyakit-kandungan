@@ -43,5 +43,16 @@
     "kode": "G09",
     "nama": "Nyeri perut bawah",
     "deskripsi": "Nyeri pada perut bawah yang tidak biasa."
+  },
+  {
+    "kode": "G13",
+    "nama": "Keputihan berbau",
+    "deskripsi": "Keputihan dengan bau tidak normal yang menandakan infeksi."
+  },
+  {
+    "kode": "G14",
+    "nama": "Gatal pada vagina",
+    "deskripsi": "Rasa gatal pada area vagina yang tidak biasa."
   }
 ]
+

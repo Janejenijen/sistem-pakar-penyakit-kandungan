@@ -4,13 +4,12 @@ from src.routers import diagnosis
 
 app = FastAPI(
     title="Sistem Pakar Diagnosis Kehamilan Trimester 2",
-    description="Backend sistem pakar menggunakan metode Forward Chaining dan Certainty Factor",
     version="1.0.0"
 )
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["http://localhost:5173"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -20,4 +19,4 @@ app.include_router(diagnosis.router, prefix="/api")
 
 @app.get("/")
 def root():
-    return {"message": "API Sistem Pakar berjalan 🚀"}
+    return {"message": "API Sistem Pakar siap digunakan"}

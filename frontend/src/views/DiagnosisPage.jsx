@@ -10,23 +10,18 @@ const symptoms = [
   { kode: "G03", nama: "Sakit kepala hebat" },
   { kode: "G04", nama: "Tekanan darah tinggi" },
   { kode: "G05", nama: "Bengkak wajah/tangan" },
-  { kode: "G06", nama: "Perdarahan vagina" },
-  { kode: "G07", nama: "Perdarahan tanpa nyeri" },
-  { kode: "G08", nama: "Perdarahan disertai nyeri" },
-  { kode: "G09", nama: "Nyeri saat BAK" },
-  { kode: "G10", nama: "Anyang-anyangan" },
-  { kode: "G11", nama: "Urine keruh/berbau" },
-  { kode: "G12", nama: "Nyeri perut bawah" },
+  { kode: "G06", nama: "Nyeri saat BAK" },
+  { kode: "G07", nama: "Anyang-anyangan" },
+  { kode: "G08", nama: "Urine keruh/berbau" },
+  { kode: "G09", nama: "Nyeri perut bawah" },
   { kode: "G13", nama: "Keputihan berbau" },
-  { kode: "G14", nama: "Keputihan gatal" },
-  { kode: "G15", nama: "Cairan bening keluar" },
-  { kode: "G16", nama: "Haus berlebih" },
-  { kode: "G17", nama: "Sering buang air kecil" },
+  { kode: "G14", nama: "Gatal pada vagina" },
 ];
 
 const DiagnosisPage = () => {
   const [gejala, setGejala] = useState({});
   const [hasil, setHasil] = useState(null);
+  const [perhitungan, setPerhitungan] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
@@ -48,10 +43,17 @@ const DiagnosisPage = () => {
     setLoading(true);
     setError("");
     setHasil(null);
+    setPerhitungan(null);
 
     try {
-      const response = await diagnose(gejala);
-      setHasil(response.diagnosis);
+      const payload = {
+        symptoms: Object.keys(gejala)
+      };
+
+      const response = await diagnose(payload);
+      setHasil(response.data.hasil);
+      setPerhitungan(response.data.perhitungan);
+
     } catch (err) {
       console.error(err);
       setError("Terjadi kesalahan saat proses diagnosis");
@@ -94,7 +96,7 @@ const DiagnosisPage = () => {
         {loading ? "Memproses..." : "💙 Lihat Hasil Pemeriksaan"}
       </button>
 
-      {hasil && <DiagnosisResult hasil={hasil} />}
+      {hasil && <DiagnosisResult hasil={hasil} perhitungan={perhitungan} />}
     </div>
   );
 };
