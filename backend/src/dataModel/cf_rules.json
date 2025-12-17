@@ -1,81 +1,90 @@
 [
   {
-    "penyakit": "Preeklampsia",
-    "premis": ["G03", "G04", "G05"],
+    "gejala": "G01",
+    "kode_penyakit": "P01",
+    "penyakit": "Preeklamsia",
+    "cf_pakar": 0.6
+  },
+  {
+    "gejala": "G02",
+    "kode_penyakit": "P01",
+    "penyakit": "Preeklamsia",
+    "cf_pakar": 0.4
+  },
+  {
+    "gejala": "G03",
+    "kode_penyakit": "P01",
+    "penyakit": "Preeklamsia",
     "cf_pakar": 0.8
   },
   {
-    "penyakit": "Preeklampsia",
-    "premis": ["G01", "G04"],
-    "cf_pakar": 0.6
-  },
-
-  {
-    "penyakit": "Anemia",
-    "premis": ["G01", "G02"],
-    "cf_pakar": 0.8
-  },
-  {
-    "penyakit": "Anemia",
-    "premis": ["G01", "G05"],
-    "cf_pakar": 0.6
-  },
-
-  {
-    "penyakit": "Plasenta Previa",
-    "premis": ["G06", "G07"],
+    "gejala": "G04",
+    "kode_penyakit": "P01",
+    "penyakit": "Preeklamsia",
     "cf_pakar": 1.0
   },
   {
-    "penyakit": "Plasenta Previa",
-    "premis": ["G06"],
+    "gejala": "G05",
+    "kode_penyakit": "P01",
+    "penyakit": "Preeklamsia",
     "cf_pakar": 0.8
   },
 
   {
-    "penyakit": "Keguguran",
-    "premis": ["G06", "G08"],
-    "cf_pakar": 1.0
+    "gejala": "G01",
+    "kode_penyakit": "P02",
+    "penyakit": "Anemia",
+    "cf_pakar": 0.8
+  },
+  {
+    "gejala": "G02",
+    "kode_penyakit": "P02",
+    "penyakit": "Anemia",
+    "cf_pakar": 0.8
+  },
+  {
+    "gejala": "G03",
+    "kode_penyakit": "P02",
+    "penyakit": "Anemia",
+    "cf_pakar": 0.4
+  },
+  {
+    "gejala": "G05",
+    "kode_penyakit": "P02",
+    "penyakit": "Anemia",
+    "cf_pakar": 0.2
   },
 
   {
-    "penyakit": "Infeksi Saluran Kemih",
-    "premis": ["G09", "G10", "G11"],
-    "cf_pakar": 0.9
-  },
-  {
-    "penyakit": "Infeksi Saluran Kemih",
-    "premis": ["G09", "G12"],
-    "cf_pakar": 0.7
-  },
-
-  {
-    "penyakit": "Kontraksi Dini",
-    "premis": ["G12"],
-    "cf_pakar": 0.7
-  },
-
-  {
+    "gejala": "G13",
+    "kode_penyakit": "P03",
     "penyakit": "Infeksi Vagina",
-    "premis": ["G13"],
-    "cf_pakar": 0.9
-  },
-
-  {
-    "penyakit": "Infeksi Jamur",
-    "premis": ["G14"],
-    "cf_pakar": 0.9
-  },
-
-  {
-    "penyakit": "Ketuban Pecah Dini",
-    "premis": ["G15"],
-    "cf_pakar": 1.0
-  },
-
-  {
-    "penyakit": "Diabetes Gestasional",
-    "premis": ["G16", "G17"],
     "cf_pakar": 0.8
+  },
+  {
+    "gejala": "G14",
+    "kode_penyakit": "P03",
+    "penyakit": "Infeksi Vagina",
+    "cf_pakar": 0.6
+  },
+
+  {
+    "gejala": "G13",
+    "kode_penyakit": "P04",
+    "penyakit": "Infeksi Jamur",
+    "cf_pakar": 0.2
+  },
+  {
+    "gejala": "G14",
+    "kode_penyakit": "P04",
+    "penyakit": "Infeksi Jamur",
+    "cf_pakar": 0.8
+  },
+
+  {
+    "gejala": "G15",
+    "kode_penyakit": "P05",
+    "penyakit": "Ketuban Pecah Dini (KPD)",
+    "cf_pakar": 1.0
   }
 ]
