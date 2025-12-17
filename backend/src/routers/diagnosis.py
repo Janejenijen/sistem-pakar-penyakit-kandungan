@@ -1,34 +1,35 @@
 from fastapi import APIRouter
 from pydantic import BaseModel
-from typing import List
+from typing import Dict
 from src.services.inference_service import forward_chaining_cf
-from src.services.data_loader import load_json
 
-router = APIRouter()
+router = APIRouter(prefix="/diagnosis", tags=["Diagnosis"])
 
-class GejalaInput(BaseModel):
-    id: str
-    cf_user: float
 
-class DiagnosaRequest(BaseModel):
-    gejala: List[GejalaInput]
+class DiagnosisRequest(BaseModel):
+    gejala: Dict[str, float]
 
-@router.post("/diagnosis")
-def diagnosis(data: DiagnosaRequest):
-    hasil = forward_chaining_cf(
-        [g.dict() for g in data.gejala]
-    )
 
-    penyakit_data = load_json("penyakit.json")
+@router.post("/")
+def diagnosis(request: DiagnosisRequest):
+    hasil = forward_chaining_cf(request.gejala)
 
-    response = []
-    for pid, cf in sorted(hasil.items(), key=lambda x: x[1], reverse=True):
-        penyakit = next(p for p in penyakit_data if p["id"] == pid)
-        response.append({
-            "id": pid,
-            "nama": penyakit["nama"],
-            "cf": round(cf, 3),
-            "persentase": f"{cf * 100:.1f}%"
-        })
+    if not hasil:
+        return {
+            "message": "Tidak ada rule yang terpenuhi"
+        }
 
-    return {"diagnosis": response}
+    return {
+        "diagnosis": [
+            {
+                "penyakit": p,
+                "cf": round(cf, 3),
+                "persentase": f"{round(cf * 100, 2)}%"
+            }
+            for p, cf in sorted(
+                hasil.items(),
+                key=lambda x: x[1],
+                reverse=True
+            )
+        ]
+    }

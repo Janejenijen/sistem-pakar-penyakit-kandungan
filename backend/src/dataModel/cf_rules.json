@@ -1,47 +1,81 @@
 [
-  { "penyakit": "Preeklampsia", "gejala": "G01", "cf": 0.6 },
-  { "penyakit": "Anemia", "gejala": "G01", "cf": 0.8 },
+  {
+    "penyakit": "Preeklampsia",
+    "premis": ["G03", "G04", "G05"],
+    "cf_pakar": 0.8
+  },
+  {
+    "penyakit": "Preeklampsia",
+    "premis": ["G01", "G04"],
+    "cf_pakar": 0.6
+  },
 
-  { "penyakit": "Preeklampsia", "gejala": "G02", "cf": 0.4 },
-  { "penyakit": "Anemia", "gejala": "G02", "cf": 0.8 },
+  {
+    "penyakit": "Anemia",
+    "premis": ["G01", "G02"],
+    "cf_pakar": 0.8
+  },
+  {
+    "penyakit": "Anemia",
+    "premis": ["G01", "G05"],
+    "cf_pakar": 0.6
+  },
 
-  { "penyakit": "Preeklampsia", "gejala": "G03", "cf": 0.8 },
-  { "penyakit": "Anemia", "gejala": "G03", "cf": 0.4 },
+  {
+    "penyakit": "Plasenta Previa",
+    "premis": ["G06", "G07"],
+    "cf_pakar": 1.0
+  },
+  {
+    "penyakit": "Plasenta Previa",
+    "premis": ["G06"],
+    "cf_pakar": 0.8
+  },
 
-  { "penyakit": "Preeklampsia", "gejala": "G04", "cf": 1.0 },
+  {
+    "penyakit": "Keguguran",
+    "premis": ["G06", "G08"],
+    "cf_pakar": 1.0
+  },
 
-  { "penyakit": "Preeklampsia", "gejala": "G05", "cf": 0.8 },
-  { "penyakit": "Anemia", "gejala": "G05", "cf": 0.2 },
+  {
+    "penyakit": "Infeksi Saluran Kemih",
+    "premis": ["G09", "G10", "G11"],
+    "cf_pakar": 0.9
+  },
+  {
+    "penyakit": "Infeksi Saluran Kemih",
+    "premis": ["G09", "G12"],
+    "cf_pakar": 0.7
+  },
 
-  { "penyakit": "Plasenta Previa", "gejala": "G06", "cf": 0.8 },
-  { "penyakit": "Keguguran", "gejala": "G06", "cf": 0.8 },
+  {
+    "penyakit": "Kontraksi Dini",
+    "premis": ["G12"],
+    "cf_pakar": 0.7
+  },
 
-  { "penyakit": "Plasenta Previa", "gejala": "G07", "cf": 1.0 },
-  { "penyakit": "Keguguran", "gejala": "G07", "cf": 0.2 },
+  {
+    "penyakit": "Infeksi Vagina",
+    "premis": ["G13"],
+    "cf_pakar": 0.9
+  },
 
-  { "penyakit": "Plasenta Previa", "gejala": "G08", "cf": 0.2 },
-  { "penyakit": "Keguguran", "gejala": "G08", "cf": 1.0 },
+  {
+    "penyakit": "Infeksi Jamur",
+    "premis": ["G14"],
+    "cf_pakar": 0.9
+  },
 
-  { "penyakit": "Kontraksi Dini", "gejala": "G09", "cf": 0.2 },
-  { "penyakit": "Infeksi Saluran Kemih", "gejala": "G09", "cf": 1.0 },
+  {
+    "penyakit": "Ketuban Pecah Dini",
+    "premis": ["G15"],
+    "cf_pakar": 1.0
+  },
 
-  { "penyakit": "Kontraksi Dini", "gejala": "G10", "cf": 0.2 },
-  { "penyakit": "Infeksi Saluran Kemih", "gejala": "G10", "cf": 0.9 },
-
-  { "penyakit": "Infeksi Saluran Kemih", "gejala": "G11", "cf": 0.8 },
-
-  { "penyakit": "Kontraksi Dini", "gejala": "G12", "cf": 0.7 },
-  { "penyakit": "Infeksi Saluran Kemih", "gejala": "G12", "cf": 0.6 },
-
-  { "penyakit": "Infeksi Vagina", "gejala": "G13", "cf": 0.9 },
-  { "penyakit": "Infeksi Jamur", "gejala": "G13", "cf": 0.2 },
-  { "penyakit": "Ketuban Pecah Dini", "gejala": "G13", "cf": 0.2 },
-
-  { "penyakit": "Infeksi Vagina", "gejala": "G14", "cf": 0.4 },
-  { "penyakit": "Infeksi Jamur", "gejala": "G14", "cf": 0.9 },
-
-  { "penyakit": "Ketuban Pecah Dini", "gejala": "G15", "cf": 1.0 },
-
-  { "penyakit": "Diabetes Gestasional", "gejala": "G16", "cf": 0.8 },
-  { "penyakit": "Diabetes Gestasional", "gejala": "G17", "cf": 0.7 }
+  {
+    "penyakit": "Diabetes Gestasional",
+    "premis": ["G16", "G17"],
+    "cf_pakar": 0.8
+  }
 ]
